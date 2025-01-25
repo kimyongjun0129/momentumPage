@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Momentum App</title>
+</head>
+<body>
+    <form id="login-form" class="hidden">
+        <span class="bg-font">Hello, What's your name?</span>
+        <input required maxlength = 15 type="text" class="bg-font"/>
+    </form>
+    <div id="weather" class="hidden">
+        <div>
+            <span class="sm-font"></span>
+        </div>
+        <span class="sm-font"></span>
+    </div>
+    <div id="clock-greeting">
+        <h1 id="clock" class="hidden">00:00</h1>
+        <h2 id="greeting" class="hidden bg-font"></h2>
+    </div>
+    <form id="todo-form" class="hidden bg-font">
+        <span>What is your main focus for today?</span>
+        <input required type="text" class=".bg-font" />
+    </form>
+    <ul id="todo-list" class="hidden">
+        <div>
+            <span class="bg-font">To Do list</span>
+        </div>
+    </ul>
+    <div id="quote" class="hidden">
+        <span class="sm-font"></span>
+        <span class="sm-font"></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="https://kit.fontawesome.com/f83bcc5f1c.js" crossorigin="anonymous"></script>
+</body>
+</html>
